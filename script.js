@@ -1,19 +1,28 @@
-let count=0;
-function insert_Row() {
-    //Write your code here
-  let table=document.querySelector("#sampleTable");
-  let btn=document.querySelector("input");
+function insert_Row(){
+	let table=document.getElementById();
+	let newRow=document.insertRow(0);
+	let newCell0=document.insertCell(0);
+	let newCell1=document.insertCell(1);
+	newCell0.textContent="New Cell1";
+	newCell1.textContent="New Cell2";
+}
 
-  for (let i = 0; i < 1; i++) {
-    const tr = document.createElement("tr");
-	count++;
-    for (let j = 1; j <= 2; j++) {
-      const td = document.createElement("td");
-      td.textContent = `New cell${j}`;
-      tr.append(td);
-    }
-    table.prepend(tr);
-  }
+// let count=0;
+// function insert_Row() {
+//     //Write your code here
+//   let table=document.querySelector("#sampleTable");
+//   let btn=document.querySelector("input");
+
+//   for (let i = 0; i < 1; i++) {
+//     const tr = document.createElement("tr");
+// 	count++;
+//     for (let j = 1; j <= 2; j++) {
+//       const td = document.createElement("td");
+//       td.textContent = `New cell${j}`;
+//       tr.append(td);
+//     }
+//     table.prepend(tr);
+//   }
 
 	// let tr=document.createElement("tr");
 	// let td1=document.createElement("td");
